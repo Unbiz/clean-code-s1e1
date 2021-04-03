@@ -30,6 +30,7 @@
 }
 
 .page-header__img {
+  display: block;
   width: 100%;
 }
 
@@ -49,6 +50,10 @@
   display: block;
   width: 500px;
   margin: 0 auto 0;
+}
+
+.add-item {
+  margin-bottom: 16px;
 }
 
 .add-item__input-text,
@@ -112,7 +117,7 @@
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -170,6 +175,10 @@
 
 .task-list__input-text {
   width: 226px;
+}
+
+.task-list__delete-button {
+  height: 32px;
 }
 
 .task-list__delete-button:hover {
